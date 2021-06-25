@@ -19,6 +19,7 @@ nav{
     box-shadow: 5px 20px 18px -10px #e8e8e4;
     background: #FFFFFF;
     position:fixed;
+    z-index:10;
 }
 
 .navigation{
@@ -107,7 +108,6 @@ a{
 .description-name{
     font-size:1.5em;
     color:black;
-
 }
 
 .main-button{
@@ -117,7 +117,6 @@ a{
 .picture-presentation{
     width:100%;
     height: 80%;
-
 }
 
 .me-coding-pic{
@@ -220,9 +219,9 @@ a{
 }
 
 .rojo:hover{
-    border: 1px solid#C4DDFF ;
+    border: 1px solid #01479C;
     box-shadow: inset 0px 0px 12px 8px rgba(196,221,255,0.6);
-    color:#C4DDFF;
+    color:#01479C;
 }
 
 
@@ -255,4 +254,101 @@ a{
 
 .author-quote{
     font-size: 2em;
+}
+
+.proyect-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.proyect-section-column{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    padding:10%;
+}
+
+.proyect-tittle{
+    font-size: 3em;
+    color:#3F3D56;
+    letter-spacing: 1px;
+}
+
+.proyect-text{
+    font-size: 1.5em;
+    color:#3F3D56;
+    letter-spacing: 1px;
+
+}
+
+.proyects-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.grid{
+    width: 408px;
+    height: 410px;
+    margin:1%;
+    border:1px solid grey;
+    border-radius: 9px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.portfolio-pic{
+    width:280px;
+    height:350px;
+}
+
+.meme-gen-pic{
+    width:280px;
+    height:350px;
+}
+.videogames-pic{
+    width:280px;
+    height:350px;
+}
+
+.payments-pic{
+    width:280px;
+    height:350px;
+}
+
+.reunion-pic{
+    width:280px;
+    height:350px;
+}
+
+.yoga-pic{
+    width:280px;
+    height:350px;
+}
+
+.movies-pic{
+    width:280px;
+    height:350px;
+}
+
+.grid:hover{
+    border: 1px solid #01479C;
+    color:#01479C;
+}
+
+figcaption{
+    font-size:1.4em;
+    font-weight: bold;
+}
+
+figcaption:hover{
+    color:#01479C;
 }
