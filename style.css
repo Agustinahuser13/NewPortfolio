@@ -14,14 +14,14 @@ nav{
     align-items: center;
     justify-content: flex-end;
     width:100%;
-    height: 100px;
+    height: 90px;
     margin-top:0;
     box-shadow: 5px 20px 18px -10px #e8e8e4;
     background: #FFFFFF;
     position:fixed;
 }
 
- .navigation{
+.navigation{
      display: flex;
      justify-content: center;
      align-content: center;
@@ -53,10 +53,10 @@ a{
 
 .contact-button{
     height:20px;
-    width:60px;
+    width:70px;
     margin: 25px;
     background-color: #e5e5e5;
-    border-radius: 65px;
+    border-radius: 75px;
     box-shadow:-1px 0px 7px 0px #e5e5e5;
 }
 .contact-button:hover{
@@ -75,16 +75,19 @@ a{
     justify-content: center;
     align-content: center;
     width: 100%;
-    height: 800px;
+    height: 600px;
     padding-top:110px;
+    margin-bottom: 50px;
     text-align: center;
+   
 }
 
 .hello-name{
     display: flex;
     flex-direction: column;
-    width:40%;
-    height: 100%;
+    width:100%;
+    height: 80%;
+    margin-right: 35px;
     color:#3F3D56;
 }
     
@@ -112,13 +115,112 @@ a{
 }
 
 .picture-presentation{
-    width:50%;
+    width:100%;
     height: 80%;
-    display: flex;
+
 }
 
 .me-coding-pic{
     width:700px;
     height:700px;
+    transition:0.5s ease-out;
 }
 
+.me-coding-pic:hover{
+    transform:scale(1.2);
+}
+
+.my-knowledge{
+    width: 100%;
+    height: 100%;
+    background-color:#F6F7FB ;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+}
+
+.tittle-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.knowledge-tittle{
+    font-size: 3em;
+    color:#3F3D56;
+    letter-spacing: 1px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding:120px 30px 120px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    flex-wrap:wrap;
+}
+
+.rojo{
+    height: 260px;
+    width:260px;
+    margin:2%;
+    padding:20px;
+    background-color: white;
+    border:1px solid grey;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+ 
+}
+
+.word-icon{
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing:2px;
+}
+.devicon-html5-plain-wordmark{
+    font-size: 140px;
+    text-align: center;
+}
+
+.devicon-css3-plain{
+    font-size: 140px;
+    text-align: center;
+}
+
+.devicon-sass-original{
+    font-size: 140px;
+    text-align: center;
+}
+
+.devicon-javascript-plain{
+    font-size: 140px;
+    text-align: center;
+}
+
+.devicon-react-original{
+    font-size: 140px;
+    text-align: center; 
+}
+
+.devicon-git-plain{
+    font-size: 140px;
+    text-align: center; 
+}
+
+.rojo:hover{
+    border: 1px solid#C4DDFF ;
+    box-shadow: inset 0px 0px 12px 8px rgba(196,221,255,0.6);
+    color:#C4DDFF;
+}
