@@ -224,3 +224,35 @@ a{
     box-shadow: inset 0px 0px 12px 8px rgba(196,221,255,0.6);
     color:#C4DDFF;
 }
+
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #01479C;
+    color:white;
+    background: #01479C;
+    background: -moz-linear-gradient(left, #01479C 0%, #1C6EA4 51%, #0271F9 100%);
+    background: -webkit-linear-gradient(left, #01479C 0%, #1C6EA4 51%, #0271F9 100%);
+    background: linear-gradient(to right, #01479C 0%, #1C6EA4 51%, #0271F9 100%);
+}
+
+.quote-container{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.quote{
+    font-size: 2em;
+}
+
+.author{
+    font-size:5em;
+}
+
+.author-quote{
+    font-size: 2em;
+}
