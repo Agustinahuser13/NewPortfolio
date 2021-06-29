@@ -403,25 +403,48 @@ figcaption:hover{
 .contact-social-media{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     list-style: none;
     padding:10px;
 }
+
 a:hover{
-    color:#FF6584;
+    color:#49ACDE; 
 }
 
 .media{
+    color:#49ACDE;
+    border:1px solid white;
+    border-radius: 20px;
+    margin-right: 5px;
+    transition: 0.3s;
     font-size:40px;
-    color:#FF6584;
-    margin: 5px;
-    transition: 0.5s;
+}
+.mediaa{
+    color:#5db9e7;
+    border:1px solid white;
+    margin-right: 5px;
+    transition: 0.3s;
+    font-size:40px;
+}
+.mediaa:hover{
+    color:teal;
+    background-color:#5db9e7;
+    border:1px solid teal;
+    height: 90px;
+    width: 90px;
+    margin-right: 5px;
 }
 
 .media:hover{
-    border-radius: 25px;
-    color:#3F3D56;
+    color:teal;
+    background-color:#5db9e7;
+    border:1px solid teal;
+    border-radius: 20px;
+    height: 90px;
+    width: 90px;
+    margin-right: 5px;
 }
-
 
 .form-aside{
     width: 50%;
@@ -449,6 +472,7 @@ a:hover{
 .container-name{
     display: flex;
     align-content: center;
+    font-weight: bold;
 }
 
 .name-field{
@@ -469,12 +493,14 @@ a:hover{
     display: flex;
     flex-direction: column;
     width:77%;
+    font-weight: bold;
 }
 
 .comment-field{
     display: flex;
     flex-direction: column;
     width:77%;
+    font-weight: bold;
 }
 
 .form-name{
@@ -540,4 +566,36 @@ textarea:hover{
 .submit-button:hover{
     background-color:teal;
     box-shadow:1px 3px 23px 5px #5db9e7;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width:100%;
+    background-color: #0D294D;
+}
+
+.link-list{
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-media-footer{
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.salute-footer{
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    color:white;
+    font-weight: bold;
 }
