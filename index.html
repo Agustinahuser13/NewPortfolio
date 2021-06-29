@@ -20,7 +20,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+
 
     <title>Portfolio</title>
 </head>
@@ -135,43 +139,70 @@
     </section>
     <!--PROYECTS SECTION FINISHED-->
     <!--CONTACT ME SECTION STARTS-->
-    <section>
-       <div class="contact-me-aside"></div>
+    <section class="contact-section">
+     <div class="contact-container">
+       <div class="contact-aside">
           <h3 class="contact-me-tittle">Contactame</h3>
-          <p class="contact-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, accusamus saepe illum provident impedit molestias vel voluptatibus architecto esse in blanditiis reiciendis officiis facere. Facere assumenda sunt doloribus consequatur ea.</p>
-          
+          <p class="contact-text">Lorem ipsum dolor sit amet consectetur it. Est, accusamus saepe illum provident impedit molestias vel voluptatibus architecto esse in blanditiis reiciendis officiis facere. Facere assumenda sunt doloribus consequatur ea.</p>
+       
           <ul class="contact-social-media">
-              <li class="github-icon">
-                <i class="fa fa-github" aria-hidden="true"></i>
+              <li class="icon">
+                <i class="devicon-github-original media"></i>
                 <a href="https://github.com/Agustinahuser13">
                 <span>Agustinahuser13</span></a>
               </li>
-              <li class="linkedin-icon">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <br>
+              <li class="icon">
+                <i class="devicon-linkedin-plain media"></i>
                 <a href="https://www.linkedin.com/in/agustina-huser-pe%C3%B1a-691030206/">
                 <span>Agustinahuserpeña</span></a>
             </li>
-              <li class="email-icon">
-                <i class="fa fa-envelope-open" aria-hidden="true"></i>
+            <br>
+              <li class="icon">
+                <i class="devicon-google-plain media"></i>
                 <a href="mailto:">
                 <span>agustinahuser@gmail.com</span></a>
             </li>
 
           </ul>
+          
+        </div>
           <div class="form-aside">
+            <div class="form-paragraph">
               <h3 class="write-me-tittle">Escribime</h3>
+              <p class="write-me-par">* Completar campos obligatorios</p>
+            </div>
 
                 <form action="users-database"method="GET" class="users-data">
-                  <label for="user-name">Nombre</label>
-                    <input type="text" name="Nombre" placeholder="p. ej. Agustina">
+                    <!--NAME SECTION-->
+                <div class="container-name">
+                 <div class="name-field">
+                  <label for="user-name">Nombre*</label>
+                    <input class="form-name"type="text" id="user-name"name="user-name" maxlenght="25" size="25"placeholder="p. ej. Agustina">
                     <br>
-                  <label for="user-surname">Apellido</label>
-                    <input type="text" name="Apellido" placeholder="p. ej. Huser Peña">
+                 </div>
+                    <!--SURNAME SECTION-->
+                 <div class="surname-field">
+                  <label for="user-surname">Apellido*</label>
+                    <input class="surname-form" type="text" id="user-surname"name="user-surname" maxlenght="25" size="25" placeholder="p. ej. Huser Peña">
                     <br>
-                  <label for="user-email">Dirección de E-mail</label>
-                    <input type="text" name="E-mail" placeholder="p. ej. agustinahuser@gmail.com">
+                 </div>
+                </div>
+                    <!--EMAIL-SECTION-->
+                 <div class="email-field">
+                  <label for="user-email">Dirección de E-mail*</label>
+                    <input class="email-form" type="text" id="user-email"name="user-email" maxlength="5" size="20"placeholder="p. ej. agustinahuser@gmail.com">
+                     <br>
+                 </div>
+                     <!--COMMENT SECTION-->
+                 <div class="comment-field">
+                  <label for="comment-section">Mensaje*</label>
+                   <textarea name="comment-section" id="comment-section"rows="7" cols="20" required="required" placeholder="Escribí tu mensaje"></textarea>
+                 </div>
+                 <button class="submit-button">Enviar</button>
               </form>
           </div>
+        </div>
     </section>
     </main>
 </body>
