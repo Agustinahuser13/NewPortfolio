@@ -78,8 +78,7 @@ a{
     height: 600px;
     padding-top:110px;
     margin-bottom: 50px;
-    text-align: center;
-   
+    text-align: center;   
 }
 
 .hello-name{
@@ -100,9 +99,8 @@ a{
 
 .name{
     font-size: 4em;
-    color:#50BAC3;
-    font-family: 'Roboto Mono', monospace;
-}
+    color:#52a9b1;
+    font-family: 'Homemade Apple', cursive;}
 
 .description-name{
     font-size:1.5em;
@@ -219,7 +217,7 @@ a{
 
 .rojo:hover{
     border: 1px solid #01479C;
-    box-shadow: inset 0px 0px 12px 8px rgba(196,221,255,0.6);
+    box-shadow: inset 0px 0px 12px 8px rgba(69, 82, 99, 0.6);
     color:#01479C;
 }
 
@@ -234,8 +232,8 @@ a{
     color:white;
     background: #01479C;
     background: -moz-linear-gradient(left, #01479C 0%, #1C6EA4 51%, #0271F9 100%);
-    background: -webkit-linear-gradient(left, #01479C 0%, #1C6EA4 51%, #0271F9 100%);
-    background: linear-gradient(to right, #01479C 0%, #1C6EA4 51%, #0271F9 100%);
+    background: -webkit-linear-gradient(left, #01479C 0%, #4699d1 51%, #0271F9 100%);
+    background: linear-gradient(to right, #01479C 0%, #1C6EA4 51%, #0262d6 100%);
 }
 
 .quote-container{
@@ -362,7 +360,7 @@ figcaption:hover{
     align-content: center;
     justify-content: center;
     padding:100px 35px 100px;
-    background-color:#DDECFF ;
+    background-color:#DDECFF;
 }
 
 .contact-container{
@@ -390,6 +388,7 @@ figcaption:hover{
     color:#3F3D56;
     letter-spacing: 1px;
     font-weight: bold;
+    text-align: center;
 }
 
 .contact-text{
@@ -509,7 +508,7 @@ a:hover{
     border:transparent;
     padding:5px;
     background-color:#DDECFF;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Cutive Mono', monospace;
 }
 .form-name:hover{
     box-shadow:1px 3px 23px 5px #5db9e7;
@@ -521,7 +520,7 @@ a:hover{
     border:transparent;
     padding:5px;
     background-color:#DDECFF;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Cutive Mono', monospace;
 }
 
 .surname-form:hover{
@@ -534,7 +533,7 @@ a:hover{
     border:transparent;
     padding:5px;
     background-color:#DDECFF;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Cutive Mono', monospace;
 }
 
 .email-form:hover{
@@ -547,7 +546,7 @@ textarea{
     border:transparent;
     padding:5px;
     background-color:#DDECFF;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Cutive Mono', monospace;
 }
 
 textarea:hover{
