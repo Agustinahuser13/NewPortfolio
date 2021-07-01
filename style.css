@@ -734,12 +734,12 @@ textarea:hover{
     .contact-container{
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
     }
     .contact-aside{
         width: 90%;
         display: flex;
-        justify-content: center;
-        align-content: center;
+        
     }
 
     .contact-text{
