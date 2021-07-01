@@ -69,36 +69,33 @@ a{
     color:white;
     box-shadow: -1px 0px 7px 0px grey;
 }
+/*MAIN SECTION*/
 
 .section-presentation{
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 100%;
-    height: 600px;
     padding-top:110px;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
     text-align: center;   
 }
 
 .hello-name{
     display: flex;
     flex-direction: column;
-    width:100%;
-    height: 80%;
-    margin-right: 35px;
-    color:#3F3D56;
+    /*margin-right: 35px;*/
 }
     
 
 .saying-hi{
-    font-size:3em;
-    margin-top:0;
-    margin-bottom:20px;
+    font-size:2.5em;
+    font-weight: bold;
+    /*margin-bottom:20px;*/
+    color:#3F3D56;
 }
 
 .name{
-    font-size: 4em;
+    font-size: 3.5em;
     color:#52a9b1;
     font-family: 'Homemade Apple', cursive;}
 
@@ -108,12 +105,11 @@ a{
 }
 
 .main-button{
-    margin-top:10%;
+    margin-top:5%;
 }
 
 .picture-presentation{
     width:100%;
-    height: 80%;
 }
 
 .me-coding-pic{
@@ -126,6 +122,8 @@ a{
     transform:scale(1.2);
 }
 
+/*MY KNOWLEDGE SECTION*/
+
 .my-knowledge{
     width: 100%;
     height: 100%;
@@ -134,7 +132,7 @@ a{
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 50px;
     text-align: center;
     letter-spacing: 1px;
     font-size: 1.5em;
@@ -158,14 +156,14 @@ a{
 .container{
     width: 100%;
     height: 100%;
-    padding:120px 30px 120px;
+    /*padding:120px 30px 120px;*/
     display: flex;
     justify-content:center;
     align-content: center;
     flex-wrap:wrap;
 }
 
-.rojo{
+.skill-container{
     height: 260px;
     width:260px;
     margin:2%;
@@ -215,7 +213,7 @@ a{
     text-align: center; 
 }
 
-.rojo:hover{
+.skill-container:hover{
     border: 1px solid #01479C;
     box-shadow: inset 0px 0px 12px 8px rgba(69, 82, 99, 0.6);
     color:#01479C;
@@ -228,6 +226,7 @@ a{
     align-content: center;
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
     background-color: #01479C;
     color:white;
     background: #01479C;
@@ -237,7 +236,7 @@ a{
 }
 
 .quote-container{
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -253,7 +252,7 @@ a{
     font-size: 2em;
 }
 
-.proyect-section{
+.project-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,35 +263,36 @@ a{
 }
 
 
-.proyect-section-column{
+.project-section-column{
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
-    padding:10%;
+    /*padding:10%;*/
 }
 
-.proyect-tittle{
+.project-tittle{
     font-size: 3em;
     color:#3F3D56;
     letter-spacing: 1px;
 }
 
-.proyect-text{
+.project-text{
     font-size: 1.5em;
     color:#3F3D56;
     letter-spacing: 1px;
 
 }
 
-.proyects-grid{
+.projects-grid{
     display: flex;
     flex-wrap: wrap;
     align-items:center;
     justify-content: flex-start;
     justify-content: center;
+    margin-top: 10%;
 }
 
 .grid{
@@ -359,7 +359,7 @@ figcaption:hover{
     display: flex;
     align-content: center;
     justify-content: center;
-    padding:100px 35px 100px;
+    /*padding:100px 35px 100px;*/
     background-color:#DDECFF;
 }
 
@@ -384,7 +384,7 @@ figcaption:hover{
 }
 
 .contact-me-tittle{
-    font-size: 2.7em;
+    font-size: 2.8em;
     color:#3F3D56;
     letter-spacing: 1px;
     font-weight: bold;
@@ -392,22 +392,28 @@ figcaption:hover{
 }
 
 .contact-text{
-    font-size: 1em;
+    font-size: 1.3em;
+    font-weight: bold;
     margin-left: 30px;
     color:#3F3D56;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 
 .contact-social-media{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    /*justify-content: flex-start;*/
     list-style: none;
-    padding:10px;
+    /*padding:10px;*/
 }
 
-a:hover{
+span{
+    font-size: 1.2em;
+}
+
+li:hover span{
     color:#49ACDE; 
 }
 
@@ -426,7 +432,7 @@ a:hover{
     transition: 0.3s;
     font-size:40px;
 }
-.mediaa:hover{
+li:hover .mediaa{
     color:teal;
     background-color:#5db9e7;
     border:1px solid teal;
@@ -435,7 +441,7 @@ a:hover{
     margin-right: 5px;
 }
 
-.media:hover{
+li:hover .media{
     color:teal;
     background-color:#5db9e7;
     border:1px solid teal;
@@ -444,6 +450,8 @@ a:hover{
     width: 90px;
     margin-right: 5px;
 }
+
+
 
 .form-aside{
     width: 50%;
@@ -455,7 +463,7 @@ a:hover{
 }
 
 .write-me-tittle{
-    font-size: 2.7em;
+    font-size: 2.8em;
     color:#2a293b;
     letter-spacing: 1px;
     font-weight: bold;
@@ -598,3 +606,192 @@ textarea:hover{
     color:white;
     font-weight: bold;
 }
+
+/*MOBILE STYLES*/
+@media screen and (max-width: 500px) and (min-width:300px) {
+
+    body{width:100vw;}
+   
+    
+    nav{display:none;}
+
+    .section-presentation{
+        width:100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: white;
+        
+    }
+
+    .hello-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .saying-hi{
+        margin: 0;
+        font-size: 2em;
+    }
+    .name{
+        font-size: 2.5em;
+    }
+
+    .description-name{
+        font-size: 1.5em;
+        width: 90%;
+    }
+
+    .main-button{
+        margin-left: 12px;
+    }
+
+    .contact-button{
+        height: 10px;
+        padding:10px;
+        font-size: 1em;
+    }
+
+    .picture-presentation{ 
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .me-coding-pic{
+        width: 380px;
+        height: 400px;
+        transition: none;
+    }
+
+    .me-coding-pic:hover{
+        transform: none;
+    }
+
+    .my-knowledge{
+        width: 100%;
+    }
+
+    .tittle-section{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .knowledge-tittle{
+        font-size: 2em;
+    }
+
+    .knowledge-paragraph{
+        width: 90%;
+        margin-left:10px;
+        font-size: 0.8em;
+    }
+
+    .skill-container{
+        width: 120px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .word-icon{
+        font-size: 0.5em;
+        font-weight: bold;
+    }
+
+    .skill{
+        font-size: 80px;
+    }
+
+    .quote{
+        font-size: 1.6em;
+    }
+
+    .author-quote{
+        font-size: 1.5em;
+    }
+
+    .project-tittle{
+        font-size: 2.1em;
+    }
+
+    .project-text{
+        font-size: 1em;
+        margin: 10px;
+    }
+
+    .contact-section{
+        width:100%;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-aside{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .contact-text{
+        margin-left:30px;
+    }
+
+    .contact-social-media{
+        width: 90%;
+        display: flex;
+    }
+
+    .media{
+        font-size: 40px;
+    }
+
+    .mediaa{
+        font-size: 40px;
+    }
+
+    span{
+        font-size: 1em;
+    }
+
+    .write-me-par{
+        display: none;
+    }
+
+    .name-field{
+        width: 70%;
+    }
+
+    .surname-field{
+        width: 70%;
+    }
+
+    .email-field{
+        width: 340px;
+    }
+
+    .comment-field{
+        width: 340px;
+    }
+
+    .submit-button{
+        width: 80px;
+    }
+
+    .link-list{
+        display: none;
+    }
+
+
+}
+
+    
