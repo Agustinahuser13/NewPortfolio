@@ -654,6 +654,9 @@ textarea:hover{
         height: 10px;
         padding:10px;
         font-size: 1em;
+        background-color:#50BAC3;
+        color:white;
+
     }
 
     .picture-presentation{ 
@@ -743,7 +746,8 @@ textarea:hover{
     }
 
     .contact-text{
-        margin-left:30px;
+        margin:20px;
+        font-size: 1em;
     }
 
     .contact-social-media{
@@ -756,7 +760,7 @@ textarea:hover{
     }
 
     .mediaa{
-        font-size: 40px;
+        font-size: 37px;
     }
 
     span{
