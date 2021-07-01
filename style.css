@@ -608,7 +608,7 @@ textarea:hover{
 }
 
 /*MOBILE STYLES*/
-@media screen and (max-width: 500px) and (min-width:300px) {
+@media screen and (max-width: 700px) and (min-width:300px) {
 
     body{width:100vw;}
    
@@ -644,6 +644,7 @@ textarea:hover{
     .description-name{
         font-size: 1.5em;
         width: 90%;
+        margin-rigth:40px;
     }
 
     .main-button{
@@ -756,7 +757,7 @@ textarea:hover{
     }
 
     .media{
-        font-size: 40px;
+        font-size: 37px;
     }
 
     .mediaa{
@@ -764,7 +765,7 @@ textarea:hover{
     }
 
     span{
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .write-me-par{
@@ -780,11 +781,11 @@ textarea:hover{
     }
 
     .email-field{
-        width: 340px;
+        width: 320px;
     }
 
     .comment-field{
-        width: 340px;
+        width: 320px;
     }
 
     .submit-button{
