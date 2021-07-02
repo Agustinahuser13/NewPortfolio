@@ -75,8 +75,7 @@ a{
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top:110px;
-    /*margin-bottom: 50px;*/
+    padding-top:90px;
     text-align: center;   
 }
 
@@ -394,7 +393,6 @@ figcaption:hover{
 .contact-text{
     font-size: 1.2em;
     font-weight: bold;
-    /*margin-left: 30px;*/
     color:#3F3D56;
     letter-spacing: 1px;
     text-align: center;
@@ -406,7 +404,7 @@ figcaption:hover{
     flex-direction: column;
     /*justify-content: flex-start;*/
     list-style: none;
-    /*padding:10px;*/
+    
 }
 
 span{
@@ -623,7 +621,7 @@ textarea:hover{
         align-content: center;
         flex-direction: column;
         flex-wrap: wrap;
-        background-color: white;
+        background-color: #d8e2dc;
         
     }
 
@@ -638,7 +636,7 @@ textarea:hover{
         font-size: 2em;
     }
     .name{
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
 
     .description-name{
@@ -688,7 +686,7 @@ textarea:hover{
     }
 
     .knowledge-tittle{
-        font-size: 2em;
+        font-size: 1.9em;
     }
 
     .knowledge-paragraph{
@@ -724,8 +722,13 @@ textarea:hover{
         font-size: 1.5em;
     }
 
+    .project-section{
+        background-color: #dfe7fd;
+    }
+
     .project-tittle{
         font-size: 2.1em;
+        font-weight: bold;
     }
 
     .project-text{
@@ -753,10 +756,12 @@ textarea:hover{
     }
 
     .contact-social-media{
-        width: 90%;
+        margin-top: 10%;
+        width: 78%;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        text-align: center;
     }
 
     .media{
@@ -784,11 +789,11 @@ textarea:hover{
     }
 
     .email-field{
-        width: 310px;
+        width: 330px;
     }
 
     .comment-field{
-        width: 310px;
+        width: 330px;
     }
 
     .submit-button{
