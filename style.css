@@ -646,7 +646,7 @@ textarea:hover{
     }
 
     .main-button{
-        margin-left: 9%;
+        margin-left: 11%;
         margin-bottom: 10px;
     }
 
@@ -736,6 +736,16 @@ textarea:hover{
         margin: 10px;
     }
 
+    .grid{
+        width: 308px;
+        height: 310px;
+    }
+
+    .picgrid{
+        width: 210px;
+        height: 250px;
+    }
+
     .contact-section{
         width:100%;
     }
@@ -789,11 +799,11 @@ textarea:hover{
     }
 
     .email-field{
-        width: 330px;
+        width: 320px;
     }
 
     .comment-field{
-        width: 330px;
+        width: 320px;
     }
 
     .submit-button{
